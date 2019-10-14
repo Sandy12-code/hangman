@@ -5,7 +5,7 @@ body {
   }
   
   div.jumbotron {
-    background-color: rgba(199, 0, 0, 0.75);
+    background-color: rgba(75, 20, 37, 0.75);
     border-bottom: 1px solid white;
   }
   
@@ -21,7 +21,7 @@ body {
     background-color: rgb(0, 95, 133);
     visibility: hidden;
     color: white;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
     line-height: 50px; 
     vertical-align: middle;
@@ -37,7 +37,7 @@ body {
     padding: 1%;
     margin: 1%;
     text-align: right;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   @media screen and (max-width: 1024px) {
