@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Word Guess Game</title> 
+
+    <!-- Link to reset file -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    
+    <!-- Link to bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Link to style sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Link to fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata%7COrbitron%7CTurret+Road&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="blanks">
+          <div id="b0" class="blank"></div>
+          <div id="b1" class="blank"></div>
+          <div id="b2" class="blank"></div>
+          <div id="b3" class="blank"></div>
+          <div id="b4" class="blank"></div>
+          <div id="b5" class="blank"></div>
+          <div id="b6" class="blank"></div>
+          <div id="b7" class="blank"></div>
+          <div id="b8" class="blank"></div>
+          <div id="b9" class="blank"></div>
+        </div>
+    
+        <div id="stats">
+         <div id="directions"></div>
+         <div id="wordGuessed"></div>
+         <div id="winText">WINS: 0</div>
+         <div id="loseText">LOSSES: 0</div>
+         <div id="guessRemainText">GUESSES LEFT: 10</div>
+         <div id="letterGuessedText">LETTERS GUESSED: </div>
+       </div>
+      </div>
+    </div> 
+
+    <!-- Link to Bootstrap JS file -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Link to JS file -->
+     <script type="text/javascript" src="assets/javascript/game.js"></script>
+  
+  </body>
+
+</html>
